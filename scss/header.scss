@@ -1,0 +1,33 @@
+header.with-overlay {
+    background: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    .section-1 {
+      position: relative;
+      height: 300px;
+      @include section-1;
+  
+    h1 {
+      color: white;
+      font-size: 1.6em;
+      margin-bottom: 20px;
+      width: 450px;
+      text-align: center;
+    }
+    div.colum {
+      display: flex;
+      flex-direction: row;
+    }
+    input {
+      @include input;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    button {
+      @include button-base;
+      padding: 5px 20px;
+      font-size: 0.7em;
+    }
+  }
+  }

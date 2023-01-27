@@ -1,0 +1,27 @@
+footer {
+    background: $offwhite;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px;
+    .left {
+      text-align: left;
+    }
+    .about {
+      line-height: 20px;
+      font-weight: 350;
+      font-size: 0.55em;
+      color: $blue;
+    }
+    .copyright {
+      line-height: 20px;
+      font-weight: 300;
+      font-size: 0.4em;
+      color: #6c757d;
+    }
+    .img {
+      height: 15px;
+      margin: 8px;
+    }
+  }

@@ -1,0 +1,18 @@
+nav {
+    background: $offwhite;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 105px;
+    position: fixed;
+    z-index: 2;
+    p {
+      font-size: 0.7em;
+    }
+    button {
+      @include button-base;
+      font-size: 0.6em;
+    }
+  }
